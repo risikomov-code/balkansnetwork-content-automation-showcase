@@ -1,0 +1,19 @@
+# Never commit local secrets, production exports or editorial datasets
+.env
+.env.*
+*.secret
+*.key
+*.pem
+credentials*
+secrets*
+production/
+private/
+exports/
+backups/
+logs/
+*.sql
+*.sqlite
+*.csv
+*.json
+*.zip
+*.tar.gz
